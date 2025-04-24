@@ -180,3 +180,17 @@ td {
 .crypto-tracker-animate {
   animation: trackerFadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Percentage change color coding */
+.percent-positive {
+  color: #16a34a !important; /* Tailwind green-600 */
+  font-weight: 700;
+}
+.percent-negative {
+  color: #dc2626 !important; /* Tailwind red-600 */
+  font-weight: 700;
+}
+.percent-neutral {
+  color: #64748b !important; /* Tailwind slate-500 */
+  font-weight: 700;
+}

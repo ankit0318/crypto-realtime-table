@@ -82,35 +82,35 @@ const CryptoTable: React.FC = () => {
                 })}
               </td>
               <td
-                className={`py-2 px-2 font-bold border border-gray-200 ${
+                className={
                   asset.percentChange1h > 0
-                    ? "text-green-500"
+                    ? "percent-positive py-2 px-2 border border-gray-200"
                     : asset.percentChange1h < 0
-                    ? "text-red-500"
-                    : "text-gray-500"
-                }`}
+                    ? "percent-negative py-2 px-2 border border-gray-200"
+                    : "percent-neutral py-2 px-2 border border-gray-200"
+                }
               >
                 {asset.percentChange1h}%
               </td>
               <td
-                className={`py-2 px-2 font-bold border border-gray-200 ${
+                className={
                   asset.percentChange24h > 0
-                    ? "text-green-500"
+                    ? "percent-positive py-2 px-2 border border-gray-200"
                     : asset.percentChange24h < 0
-                    ? "text-red-500"
-                    : "text-gray-500"
-                }`}
+                    ? "percent-negative py-2 px-2 border border-gray-200"
+                    : "percent-neutral py-2 px-2 border border-gray-200"
+                }
               >
                 {asset.percentChange24h}%
               </td>
               <td
-                className={`py-2 px-2 font-bold border border-gray-200 ${
+                className={
                   asset.percentChange7d > 0
-                    ? "text-green-500"
+                    ? "percent-positive py-2 px-2 border border-gray-200"
                     : asset.percentChange7d < 0
-                    ? "text-red-500"
-                    : "text-gray-500"
-                }`}
+                    ? "percent-negative py-2 px-2 border border-gray-200"
+                    : "percent-neutral py-2 px-2 border border-gray-200"
+                }
               >
                 {asset.percentChange7d}%
               </td>
